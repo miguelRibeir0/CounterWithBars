@@ -31,16 +31,4 @@ function updateBars() {
             bar.classList.remove("red", "yellow", "green");
         }
     });
-}
-
-/* btns.forEach((btn,index) => {                                  //professor
-    btn.addEventListener("click", () => {
-        if (index == 0) { 
-            number = number > 0 ? number - 1 : 0;
-        } else {
-            number = number < 10 ? number + 1 : 10;
-        }
-        countdown.innerText = number;
-        bars.forEach((bar,index) => bar.className = index < number ? "visible" : "");   //Usa uma class visible como toggle, mais rapido, menos codigo
-        })
-    }); */
+};

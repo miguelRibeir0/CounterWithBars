@@ -51,3 +51,29 @@ button {
 .red {
     background-color: red;
 }
+
+
+@media screen and (max-width: 1500px) {
+    .container1, .container2 {
+        width: 55vw;
+    }
+    h2 {
+        font-size: 9rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    button {
+        font-size: 4rem;
+    }
+    .container1, .container2 {
+        width: 65vw;
+    }
+    .container2 {
+        height: 10vh;
+    }
+    h2 {
+        font-size: 8rem;
+    }
+}
